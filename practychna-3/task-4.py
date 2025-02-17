@@ -28,7 +28,7 @@ class Rectangle(Shape):
         self.height = height
 
     def area(self):
-        return self.width * self.height  # Формула площі прямокутника
+        return self.width * self.height  
 
 
 # Перевіряємо роботу
@@ -38,5 +38,5 @@ circle = Circle(float(input("Введіть радіус кола: ")))
 rectangle = Rectangle(width_input, height_input)
 
 
-print(f"Площа кола: {circle.area()}")  # Виведе 78.5
-print(f"Площа прямокутника: {rectangle.area()}")  # Виведе 24
+print(f"Площа кола: {circle.area()}")
+print(f"Площа прямокутника: {rectangle.area()}")
