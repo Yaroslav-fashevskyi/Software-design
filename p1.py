@@ -76,7 +76,7 @@ def view_article_by_id():
 def main():
     create_database()
     while True:
-        print("\nМеню:")
+        print("Меню:")
         print("1. Додати статтю")
         print("2. Видалити статтю")
         print("3. Переглянути всі статті")
